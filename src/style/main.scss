@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "lato";
+  src: url(./fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: "latolight";
+  src: url(./fonts/Lato-Thin.ttf);
+}
+@mixin flexCenterColumn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+html {
+  font-size: 62.5%;
+  h1 {
+    font-size: 7rem;
+  }
+  h2 {
+    font-size: 4rem;
+  }
+  h3 {
+    font-size: 3rem;
+  }
+  h4 {
+    font-size: 2rem;
+  }
+  h5 {
+    font-size: 1.5rem;
+  }
+}
+body {
+  font-family: "latolight";
+}
+.fuenteTitulos {
+  font-family: "Hind Siliguri", sans-serif;
+}
+header {
+  height: 100vh;
+  background-image: url("../images/mudanza_internacional_header.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+.title {
+  text-align: center;
+}
+.subtitle {
+  text-align: center;
+}
+.sectionParagraph {
+  @include flexCenter();
+  padding: 100px;
+  .fotoparagraph {
+    @include flexCenter();
+    width: 50%;
+    img {
+      max-width: 500px;
+    }
+  }
+  .textParagraph {
+    width: 50%;
+    padding: 30px;
+  }
+}
+.esquema {
+  .esquemaPrincipal {
+    @include flexCenter();
+    img {
+      max-width: 1400px;
+    }
+  }
+  .esquemaSegundaParte {
+    padding: 60px;
+    @include flexCenter();
+    margin-top: 30px;
+    h4 {
+      font-family: "Hind Siliguri", sans-serif;
+    }
+    .esquemaSegundaParteItem {
+      text-align: center;
+      width: 50%;
+    }
+  }
+}
+.certificaciones {
+  background-color: #272727;
+  @include flexCenterColumn();
+  padding: 50px;
+  .tituloCertificados {
+    color: #fff;
+  }
+  .contenedorImgCertificados {
+    width: 70%;
+    @include flexCenter();
+    img {
+      max-width: 100px;
+    }
+  }
+}
+.contacto {
+  background-color: #d4d4d4;
+  height: 600px;
+  .informacioncontacto {
+  }
+}

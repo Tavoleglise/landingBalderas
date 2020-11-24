@@ -1,0 +1,187 @@
+@font-face {
+  font-family: "lato";
+  src: url(./fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: "latolight";
+  src: url(./fonts/Lato-Thin.ttf);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html h1 {
+  font-size: 7rem;
+}
+
+html h2 {
+  font-size: 4rem;
+}
+
+html h3 {
+  font-size: 3rem;
+}
+
+html h4 {
+  font-size: 2rem;
+}
+
+html h5 {
+  font-size: 1.5rem;
+}
+
+body {
+  font-family: "latolight";
+}
+
+.fuenteTitulos {
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+header {
+  height: 100vh;
+  background-image: url("../images/mudanza_internacional_header.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.title {
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.sectionParagraph {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 100px;
+}
+
+.sectionParagraph .fotoparagraph {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 50%;
+}
+
+.sectionParagraph .fotoparagraph img {
+  max-width: 500px;
+}
+
+.sectionParagraph .textParagraph {
+  width: 50%;
+  padding: 30px;
+}
+
+.esquema .esquemaPrincipal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.esquema .esquemaPrincipal img {
+  max-width: 1400px;
+}
+
+.esquema .esquemaSegundaParte {
+  padding: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 30px;
+}
+
+.esquema .esquemaSegundaParte h4 {
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+.esquema .esquemaSegundaParte .esquemaSegundaParteItem {
+  text-align: center;
+  width: 50%;
+}
+
+.certificaciones {
+  background-color: #272727;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 50px;
+}
+
+.certificaciones .tituloCertificados {
+  color: #fff;
+}
+
+.certificaciones .contenedorImgCertificados {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.certificaciones .contenedorImgCertificados img {
+  max-width: 100px;
+}
+
+.contacto {
+  background-color: #d4d4d4;
+  height: 600px;
+}
+/*# sourceMappingURL=main.css.map */
