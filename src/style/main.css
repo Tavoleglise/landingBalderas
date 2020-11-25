@@ -41,6 +41,7 @@ body {
   font-family: "latolight";
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
 
 .fuenteTitulos {
@@ -301,6 +302,9 @@ footer .informacionFooter {
 }
 
 @media (max-width: 600px) {
+  html {
+    overflow-x: hidden;
+  }
   html h1 {
     font-size: 3rem;
   }
@@ -428,6 +432,12 @@ footer .informacionFooter {
   }
   .logoBalderas_footer img {
     max-width: 200px;
+  }
+  .sectionParagraph .fotoparagraph img {
+    max-width: 300px;
+  }
+  .contacto .telefonoMail .telefonoMail_item {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=main.css.map */
